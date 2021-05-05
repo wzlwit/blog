@@ -1,0 +1,20 @@
+columnstore index:  physical level, 
+
+A   1  
+B   2
+A   2
+B   1
+
+rowstore index:
+
+    multiple index
+    idx_i  (Colfirst)   min storage
+
+    idx_i  (Col2nd)   min storage
+
+
+    multple column
+    idx_i  (Colfirst, col2nd)   increase storage by a half of the size each single column index
+
+
+index (rid, crmcode)
